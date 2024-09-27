@@ -1,0 +1,1 @@
+This repository contains program source files and practice materials used in open source programming class.
