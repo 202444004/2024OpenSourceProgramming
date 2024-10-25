@@ -43,8 +43,8 @@ func main() {
 		}
 	}
 	if win {
-		fmt.Println("win")
+		fmt.Println("win.")
 	} else {
-		fmt.Println("lose")
+		fmt.Println("lose. %d\n", answer)
 	}
 }
