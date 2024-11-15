@@ -2,22 +2,22 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/headfirstgo/keyboard"
 )
 
 func main() {
-	var gpa [3]float64
-	//go get github.com/headfirstgo/keyboard
+	var gpa [5]float64 = [5]float64{3.5, 4.1, 4.5, 3.9, 4.23}
+	gpa_slice := gpa[1:4]
+	fmt.Println(gpa_slice)
 
-	for i := 0; i < len(gpa); i++ {
+	//go get github.com/headfirstgo/keyboard
+	/*for i := 0; i < len(gpa); i++ {
 		fmt.Print("input float number")
 		gpa[i], _ = keyboard.GetFloat()
 	}
 
 	for index, value := range gpa {
 		fmt.Printf("%d %f\n", index, value)
-	}
+	}*/
 
 	//var dates [3]time.Time
 	//dates[1] = time.Unix(1447920000, 0)
